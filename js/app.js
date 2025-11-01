@@ -5,8 +5,15 @@
 
 import { setupValidation } from "./validation.js";
 import { setupRouter } from "./templates.js";
+import { applyHighContrastPreference, addHighContrastToggle } from "./accessibility.js";
 
 document.addEventListener("DOMContentLoaded", function() {
+    // Aplica a preferência de alto contraste salva
+    applyHighContrastPreference();
+
+    // Adiciona o botão de alternância (para demonstração)
+    addHighContrastToggle();
+
     // Inicializa o roteador para o SPA básico
     setupRouter();
 
