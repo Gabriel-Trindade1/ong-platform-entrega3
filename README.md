@@ -1,32 +1,46 @@
-# Plataforma Digital para ONGs - Entrega III: Interatividade e Funcionalidades
+# Plataforma Digital para ONGs - Entrega IV: Finalização
 
 ## Descrição do Projeto
-Este repositório contém a terceira entrega do projeto de desenvolvimento web, focada na implementação de interatividade e funcionalidades avançadas utilizando JavaScript. O objetivo é transformar a interface estática (Entrega II) em uma aplicação web dinâmica e interativa, simulando uma Single Page Application (SPA) e implementando validação de formulários robusta.
+Este repositório contém a **entrega final** do projeto de desenvolvimento web, consolidando as entregas anteriores (Estrutura, Estilização e Interatividade) com a implementação de práticas profissionais de **Versionamento (GitFlow)**, **Acessibilidade (WCAG 2.1 AA)** e **Otimização para Produção**.
 
 ## Tecnologias Utilizadas
 - HTML5 (Estrutura da Entrega I)
 - CSS3 (Estilização, Flexbox, Grid, Variáveis CSS - Entrega II)
-- **JavaScript Avançado** (Módulos ES6, Manipulação do DOM, Roteamento Básico SPA, Templates JS, Validação de Formulários)
+- JavaScript Avançado (Módulos ES6, SPA, Validação - Entrega III)
+- **GitFlow** (Estratégia de Branching)
+- **Minificação** (HTML, CSS, JS)
 
 ## Estrutura de Arquivos
 - `index.html`: Página principal que serve como container para o SPA.
-- `cadastro.html`: Página de cadastro (mantida para fins de estrutura, mas o conteúdo é carregado via SPA).
-- `css/`: Pasta com todos os arquivos de estilo (Entrega II).
+- `cadastro.html`: Página de cadastro (mantida para fins de estrutura).
+- `css/`: Pasta com todos os arquivos de estilo.
+  - `css/modules/_accessibility.css`: Estilos para Modo Escuro e Alto Contraste.
 - `js/`: Pasta com os módulos JavaScript.
-  - `main.js`: Script do menu hambúrguer (Entrega II).
-  - `app.js`: Módulo principal que inicializa o roteador e as funcionalidades.
-  - `templates.js`: Módulo com os templates HTML e a lógica de roteamento SPA.
-  - `validation.js`: Módulo com as funções de validação de formulário (CPF, Idade, etc.).
+  - `js/accessibility.js`: Lógica para alternância de Alto Contraste.
+- **`dist/`**: Pasta com os arquivos minificados e otimizados para deploy em produção.
 
-## Funcionalidades Implementadas (Entrega III)
-1.  **SPA Básico:** Navegação entre as páginas (Início, Projetos, Cadastro) sem recarregar a página, utilizando roteamento baseado em hash (`#`).
-2.  **Templates JavaScript:** O conteúdo principal das páginas é renderizado dinamicamente a partir de templates definidos em JavaScript.
-3.  **Validação de Formulário Modular:** Sistema de verificação de consistência de dados no formulário de cadastro (`cadastro.html`), com aviso visual ao usuário para campos incorretos (CPF, Idade mínima de 18 anos, etc.).
+## Funcionalidades Implementadas (Entrega IV)
+1.  **Versionamento Profissional:**
+    *   Estratégia de Branching **GitFlow** (`main`, `develop`, `feature/*`).
+    *   Histórico de **Commits Semânticos** (`feat:`, `perf:`, `docs:`).
+    *   Uso de **Issues** e **Milestones** no GitHub.
+2.  **Acessibilidade (WCAG 2.1 AA):**
+    *   Implementação de **Modo Escuro** (`prefers-color-scheme`).
+    *   Implementação de **Modo Alto Contraste** (via classe `.high-contrast`).
+    *   Garantia de **Foco de Teclado** visível (`:focus`).
+3.  **Otimização para Produção:**
+    *   **Minificação** de HTML, CSS e JavaScript (arquivos em `dist/`).
 
 ## Contexto Acadêmico
 **Disciplina:** Desenvolvimento Web
 **Professor:** [Informação Omitida]
-**Entrega:** Interatividade e Funcionalidades (Entrega III)
+**Entrega:** Versionamento, Acessibilidade e Deploy (Entrega IV - Final)
 
 ## Autor
 Gabriel Trindade
+
+## Histórico de Releases
+*   **v1.0.0** - Entrega Final (Versionamento, Acessibilidade e Otimização)
+*   **v0.3.0** - Interatividade e Funcionalidades (SPA, Templates JS, Validação)
+*   **v0.2.0** - Estilização e Leiautes (Design System, Grid/Flexbox, Responsividade)
+*   **v0.1.0** - Estrutura HTML (Entrega I)
