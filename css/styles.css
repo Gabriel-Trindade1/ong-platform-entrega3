@@ -62,3 +62,4 @@ section:nth-child(even) {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: var(--spacing-md);
 }
+
