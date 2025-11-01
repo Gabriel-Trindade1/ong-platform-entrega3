@@ -24,8 +24,8 @@ Este repositório contém a terceira entrega do projeto de desenvolvimento web, 
 3.  **Validação de Formulário Modular:** Sistema de verificação de consistência de dados no formulário de cadastro (`cadastro.html`), com aviso visual ao usuário para campos incorretos (CPF, Idade mínima de 18 anos, etc.).
 
 ## Contexto Acadêmico
-**Disciplina:** [Nome da Disciplina]
-**Professor:** [Nome do Professor]
+**Disciplina:** Desenvolvimento Web
+**Professor:** [Informação Omitida]
 **Entrega:** Interatividade e Funcionalidades (Entrega III)
 
 ## Autor
